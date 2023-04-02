@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/location_2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>MANTRA</title>
+
+	<link rel="icon" href="images/mantra.png" type="image/x-icon">
+	
+</head>
+<body>
+
+<section class="sub-header">
+	<nav>
+
+		<a href="index.html"><img src="images/mantra.png" alt="Orom logo"></a>
+		<h1>Mantra</h1>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="">MODELS</a></li>
+				<li><a href="">LOCATION</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<!--<li>
+					<div class="country">
+					<a href="">LOCATION</a>
+					<select id="countries" name="countries"></select>
+						
+					</div>
+				</li>-->
+			</ul>
+			
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h2>Delhi</h2>
+
+
+
+</section><!-- header -->
+
+
+<section class="about-us">
+	<div class="about-row">
+		<div class="about-col">
+			<h1>We are the world's largest<br> bike company</h1>
+			<p><img src="images/kawasaki_location.png" alt="About">
+			<br>Mantra is noted for a style of customization that gave rise to the chopper motorcycle style. The company traditionally marketed heavyweight, air-cooled cruiser motorcycles with engine displacements greater than 700 cc, but it has broadened its offerings to include more contemporary VRSC (2002) and middle-weight Street (2015) platforms.</p>
+			<a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>	
+		</div>
+
+	</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112048.30312282057!2d77.01556216249999!3d28.644460199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d031e1390113f%3A0xe04a7c92eb7dd3c0!2skawasaki%20West%20Delhi!5e0!3m2!1sen!2sin!4v1667087851790!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+
+</section><!-- about-us -->
+
+
+
+<section class="sub-footer">
+	<h4>About Us</h4>
+	<p>We create products, services and experiences that inspire our customers to discover<br class="break"> adventure, find freedom for the soul and live the Mantra lifestyle unlike any of our<br class="break"> competitors we have the opportunity to evolve our lifestyle brand to new heights if we <br class="break">rigorously pursue and execute on our strategy in the coming years.</p>
+	
+	<div class="sub-icons">
+		<a href="https://twitter.com/VishalG42439140" target="_blank"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/vishalgupta1511/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/p-vishal-gupta-699539250/" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+	</div>
+
+	<div class="bubble">
+	<p>Made by <i class="fa fa-heart-o"></i> P VISHAL GUPTA</p>
+	</div>
+
+</section><!-- footer -->
+
+
+<script src="javascript/main.js"></script>
+
+<!----------- JavaScript for Toggle Menu ------------->
+
+<script type="text/javascript">
+	
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

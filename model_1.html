@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/model_1_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>MANTRA</title>
+
+	<link rel="icon" href="images/mantra.png" type="image/x-icon">
+	
+</head>
+<body>
+
+<section class="header">
+	<nav>
+
+		<a href="index.html"><img src="images/mantra.png" alt="Orom logo"></a>
+		<h1>Mantra</h1>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="">MODELS</a></li>
+				<li><a href="">LOCATION</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<!--<li>
+					<div class="country">
+					<a href="">LOCATION</a>
+					<select id="countries" name="countries"></select>
+						
+					</div>
+				</li>-->
+			</ul>
+			
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<div class="container" id="bike">
+
+		<div class="content">
+			<h2>HARLEY DAVIDSON</h2>
+			<h1>SPORTSTER S</h1>
+			<p>On Road Price<br>
+				Starting from<br>
+				₹ 16,53,993.00 
+			</p>
+			<h3>Choose your color</h3>
+			<div class="colour-select">
+				<div id="black"></div>
+				<div id="denim"></div>
+				<div id="blueblack"></div>
+				<div id="grey"></div>
+				<div id="white"></div>
+			</div>
+		</div>
+
+		<div class="text-box">
+			<a href="#" class="btn">Buy Now</a>
+			<a href="#" class="btn">Test Drive</a>
+		</div>
+
+	</div>
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>We create products, services and experiences that inspire our customers to discover<br class="break"> adventure, find freedom for the soul and live the Mantra lifestyle unlike any of our<br class="break"> competitors we have the opportunity to evolve our lifestyle brand to new heights if we <br class="break">rigorously pursue and execute on our strategy in the coming years.</p>
+	
+	<div class="icons">
+		<a href="https://twitter.com/VishalG42439140" target="_blank"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/vishalgupta1511/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/p-vishal-gupta-699539250/" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+	</div>
+
+	<div class="bubble">
+	<p>Made by <i class="fa fa-heart-o"></i> P VISHAL GUPTA</p>
+	</div>
+
+</section><!-- footer -->
+
+<script type="text/javascript">
+	
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+
+
+<script>
+	let blackBtn = document.getElementById("black");
+	let denimBtn = document.getElementById("denim");
+	let blueblackBtn = document.getElementById("blueblack");
+	let greyBtn = document.getElementById("grey");
+	let whiteBtn = document.getElementById("white");
+	let bike = document.getElementById("bike");
+
+	
+	blackBtn.onclick = function(){
+		bike.style.backgroundImage = "url(images/harley/harley_black.png)";
+	}	
+
+	denimBtn.onclick = function(){
+		bike.style.backgroundImage = "url(images/harley/harley_black_denim.png)";
+	}
+
+	blueblackBtn.onclick = function(){
+		bike.style.backgroundImage = "url(images/harley/harley_blue_black.png)";
+	}
+
+	greyBtn.onclick = function(){
+		bike.style.backgroundImage = "url(images/harley/harley_grey.png)";
+	}
+
+	whiteBtn.onclick = function(){
+		bike.style.backgroundImage = "url(images/harley/harley_white_sand_pearl.png)";
+	}
+
+
+</script>
+
+
+
+</body>
+</html>
